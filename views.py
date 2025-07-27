@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Question
+from models import Question
 
 def course_details(request):
     questions = Question.objects.all()
